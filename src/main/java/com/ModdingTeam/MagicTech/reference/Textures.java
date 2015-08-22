@@ -21,7 +21,12 @@ public class Textures {
 
         private static final String BLOCK_TEXTURE_LOCATION = RESOURCE_PREFIX + "textures/blocks";
 
-        public static final ResourceLocation GENBOTTOM = ResourceLocationHelper.getResourceLocation(BLOCK_TEXTURE_LOCATION + "GenBottom.png");
+        public static final String GENBOTTOM = References.LOWERCASE_MOD_ID + ":GenBottom";
+        public static final String GENTOP = References.LOWERCASE_MOD_ID + ":GenTop";
+        public static final String GENFRONT = References.LOWERCASE_MOD_ID + ":GenFront";
+        public static final String GENBACK = References.LOWERCASE_MOD_ID + ":GenBack";
+        public static final String GENLEFT = References.LOWERCASE_MOD_ID + ":GenLeft";
+        public static final String GENRIGHT = References.LOWERCASE_MOD_ID + ":GenRight";
 
 
 
