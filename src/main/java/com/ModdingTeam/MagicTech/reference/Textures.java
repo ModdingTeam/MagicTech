@@ -21,7 +21,7 @@ public class Textures {
 
         private static final String BLOCK_TEXTURE_LOCATION = RESOURCE_PREFIX + "textures/blocks";
 
-        public static final ResourceLocation LAUNCHPAD2META = ResourceLocationHelper.getResourceLocation(BLOCK_TEXTURE_LOCATION + "ModelLaunchPad2Meta.png");
+        public static final ResourceLocation GENBOTTOM = ResourceLocationHelper.getResourceLocation(BLOCK_TEXTURE_LOCATION + "GenBottom.png");
 
 
 
