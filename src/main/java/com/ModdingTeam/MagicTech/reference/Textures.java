@@ -1,5 +1,6 @@
 package com.ModdingTeam.MagicTech.reference;
 
+import com.ModdingTeam.MagicTech.util.ResourceLocationHelper;
 import net.minecraft.util.ResourceLocation;
 
 /**
@@ -17,7 +18,13 @@ public class Textures {
     }
 
     public static final class Blocks{
-        private static final
+
+        private static final String BLOCK_TEXTURE_LOCATION = RESOURCE_PREFIX + "textures/blocks";
+
+        public static final ResourceLocation LAUNCHPAD2META = ResourceLocationHelper.getResourceLocation(BLOCK_TEXTURE_LOCATION + "ModelLaunchPad2Meta.png");
+
+
+
     }
 
     public static final class Armor

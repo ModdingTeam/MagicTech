@@ -23,6 +23,6 @@ public class BlockGenerator extends Block {
 
     @Override
     public void registerBlockIcons(IIconRegister iconRegister) {
-        Bottom = iconRegister.registerIcon()
+
     }
 }
